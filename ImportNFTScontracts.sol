@@ -14,5 +14,5 @@ import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Strings.sol
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/ERC165.sol";
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/IERC165.sol",
 interface ImportNFTScontracts {
-    function voidFunction() external view returns (string void);
+    function voidFunction(uint x) external view returns (uint void);
 }
