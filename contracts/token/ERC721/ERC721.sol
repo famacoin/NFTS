@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@famacoin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "github/famacoin/NFTS/contracts/token/ERC721/ERC721.sol";
+import "github/famacoin/NFTS/contracts/utils/Counters.sol";
+import "github/famacoin/NFTS/contracts/access/Ownable.sol";
+import "github/famacoin/NFTS/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 contract MyNFT is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
