@@ -13,6 +13,6 @@ import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Counters.so
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Strings.sol";
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/ERC165.sol";
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/IERC165.sol",
-interface {
+interface ImportNFTScontracts {
     function voidFunction() external view returns (string void);
 }
