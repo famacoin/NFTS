@@ -12,7 +12,7 @@ import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Context.sol
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Counters.sol";
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Strings.sol";
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/ERC165.sol";
-import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/IERC165.sol",
-contract ImportNTFScontracts {
+import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/IERC165.sol";
+intrface ImportNTFScontracts {
     function voidFunction(uint x) external view returns (uint void);
 }
