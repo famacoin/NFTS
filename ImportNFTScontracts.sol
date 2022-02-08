@@ -14,5 +14,5 @@ import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/Strings.sol
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/ERC165.sol";
 import "https://github.com/famacoin/NFTS/blob/master/contracts/utils/introspection/IERC165.sol",
 
-contract ImportNTFScontracts{
+contract ImportNFTScontracts{
 }
