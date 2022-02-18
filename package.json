@@ -1,0 +1,30 @@
+{
+  "name": "@famacoin/nfts",
+  "description": "Secure Smart Contract library for Solidity",
+  "version": "4.4.1",
+  "files": [
+    "/contracts/**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/famacoin/nfts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "author": "famacoin.org Community <mail@famacoin.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/famacoin/nfts/issues"
+  },
+  "homepage": "https://famacoin.org"
+}
